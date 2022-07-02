@@ -3,56 +3,52 @@
 
 <head>
   <title> Project1 </title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
   <header id="home">
-    <h1> Ahmed KALLALA </h1>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Resume">Resume</a></li>
-        <li><a href="#footer">Contact</a></li>
-      </ul>
-    </nav>
-    <pre>   Some music, enjoy! </pre>
-    <audio controls src="/Users/ahmedkallala/Desktop/GoMyCode/Hummingbird.mp3"></audio>
+    <h1 class="titles"> Ahmed KALLALA </h1>
   </header>
+
+  <nav>
+    <ul id="navbar" class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Work">Work</a></li>
+      <li><a href="#Resume">Resume</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+    <div class="nav" id="audio">
+      Some music, enjoy!
+      <audio controls src="../Hummingbird.mp3"></audio>
+    </div>
+  </nav>
 
   <hr />
 
   <article id="About">
-    <h3><u>About</u></h3>
-    <img src="/Users/ahmedkallala/Desktop/GoMyCode/20210516-203121_Gallery.jpg" height="200" width="200">
-    <P>Description Section Description Section Description Section Description Section Description Section Description
-      Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section
+    <h3 class="titles"><u>About</u></h3>
+    <img src="../20210516-203121_Gallery.jpg" height="200" width="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facilis dignissimos ratione doloribus
+      culpa, voluptas libero reprehenderit vel, obcaecati corporis, repudiandae ut ad natus aliquam incidunt mollitia
+      saepe sunt fuga!</p>
+    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta officia iure voluptatem ab magni quia dolorem
+      quaerat voluptatibus cumque veritatis! Illum nisi necessitatibus cumque asperiores consectetur repellendus autem
+      ratione laudantium.
     </P>
-    <p>Description Section Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section Description Section
-      Description Section Description Section Description Section Description Section Description
-      Section Description Section Description Section Description Section Description Section </p>
+    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis molestiae maiores ex
+      architecto. Deserunt, aspernatur nihil? Consequatur facere deserunt accusantium eos, temporibus consectetur id
+      eius cumque quaerat reiciendis quidem illo.</p>
   </article>
 
   <hr />
 
   <form id="Work">
-    <h3><u>Work</u></h3>
+    <h3 class="titles"><u>Work</u></h3>
     <select>
       <option value="Madame">Madame</option>
       <option value="Monsieur">Monsieur</option>
@@ -75,7 +71,7 @@
     <input type="text" name="phone number" />
     <br />
     <br />
-    <textarea name="Request" id="Request" cols="160" rows="30" placeholder="What's your request?"></textarea>
+    <textarea name="Request" id="Request" cols="auto" rows="auto" placeholder="What's your request?"></textarea>
     <br />
     <button type="submit">Submit</button>
   </form>
@@ -83,8 +79,8 @@
   <hr />
 
   <section id="Resume">
-    <h3><u>Resume</u></h3>
-    <table border="4">
+    <h3 class="titles"><u>Resume</u></h3>
+    <table border="2">
       <tr>
         <th>Period</th>
         <th>Degree</th>
@@ -105,14 +101,13 @@
 
   <hr />
 
-  <footer id="footer"><u><b>Contact</b></u>
+  <footer id="footer"><u><b>Contact:</b></u>
     <ul>
-      <li><b>Phone number: </b> 92980436</li>
-      <li><b>Mail: </b> <a href=”mailto:”>ahmed.kallala@hotmail.fr</a></li>
+      <li><b><u>Phone number:</u></b> 92980436</li>
+      <li><b><u>Mail:</u></b> <a href=”mailto:”> ahmed.kallala@hotmail.fr</a></li>
       <li><i>Sousse, Tunisie</i></li>
     </ul>
   </footer>
-
 </body>
 
 </html>
